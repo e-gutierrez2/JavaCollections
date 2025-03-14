@@ -1,7 +1,7 @@
 package Vista;
 
 public class Vista {
-     static void Mensaje(String msg){
+     public static void mensaje(String msg){
          System.out.println(msg);
     }
 

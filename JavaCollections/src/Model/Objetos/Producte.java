@@ -1,6 +1,6 @@
 package Model.Objetos;
 
-public class Producte {
+public abstract class Producte {
     protected float precio;
     protected String nombre;
     protected String codgioBarras;
@@ -23,5 +23,17 @@ public class Producte {
 
     protected String getCodgioBarras(){
         return codgioBarras;
+    }
+
+    public void setPrecio(float precio) {
+        this.precio = precio;
+    }
+
+    public void setCodgioBarras(String codgioBarras) {
+        this.codgioBarras = codgioBarras;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }
